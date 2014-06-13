@@ -18,7 +18,7 @@ Build-Depends: cmake,
                qtbase5-dev,
                qtdeclarative5-dev
 Standards-Version: 3.9.5
-Section: libs
+Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/plasma-nm
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/plasma-nm
