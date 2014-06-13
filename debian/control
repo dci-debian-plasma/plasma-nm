@@ -4,10 +4,19 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.14), 
-               libnm-qt-dev,              
-               pkg-kde-tools,               
-               qtbase5-dev
+               extra-cmake-modules (>= 0.0.14),    
+               gettext,    
+               libkf5declarative-dev (>= 4.100.0),       
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5wallet-dev,
+               libnm-qt-dev,
+               network-manager-dev,
+               libopenconnect-dev,
+               pkg-config,
+               pkg-kde-tools,
+               plasma-framework-dev (>= 4.100.0),
+               qtbase5-dev,
+               qtdeclarative5-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
@@ -18,26 +27,8 @@ Package: plasma-nm
 Section: utils
 Architecture: any
 Depends: plasma-nm-data (= ${source:Version}),
- ${misc:Depends},
- ${shlibs:Depends}
-Description: Plasma5 networkmanager library.
- Plasma desktop network manager.
- .
- This package is part of the KDE Plasma.
-
-Package: libplasmanm-editor
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Plasma5 networkmanager library.
- Plasma desktop network manager.
- .
- This package is part of the KDE Plasma.
-
-Package: libplasmanm-internal
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
  .
