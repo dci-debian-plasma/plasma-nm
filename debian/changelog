@@ -4,5 +4,6 @@ plasma-nm (1.0.0~git20140614-0ubuntu1) UNRELEASED; urgency=medium
   * Initial release.
   * Fix depends 
   * Change section and re-version
+  * Fix build depend 
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 12 Jun 2014 10:24:08 +0100
