@@ -1,0 +1,62 @@
+Source: plasma-nm
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14), 
+               libnm-qt-dev,              
+               pkg-kde-tools,               
+               qtbase5-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
+Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/plasma-nm
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/plasma-nm
+
+Package: plasma-nm
+Section: utils
+Architecture: any
+Depends: plasma-nm-data (= ${source:Version}),
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Plasma5 networkmanager library.
+ Plasma desktop network manager.
+ .
+ This package is part of the KDE Plasma.
+
+Package: libplasmanm-editor
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma5 networkmanager library.
+ Plasma desktop network manager.
+ .
+ This package is part of the KDE Plasma.
+
+Package: libplasmanm-internal
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma5 networkmanager library.
+ Plasma desktop network manager.
+ .
+ This package is part of the KDE Plasma.
+
+Package: plasma-nm-data
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma5 networkmanager library data files.
+ Plasma desktop network manager.
+
+Package: plasma-nm-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: plasma-nm (= ${binary:Version}), ${misc:Depends}
+Description: Plasma networkmanager debug files.
+ Plasma5 network manager debugging files.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the debugging symbols.
