@@ -1,3 +1,10 @@
+plasma-nm (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream RC release
+  * Upstream now releasing along with Plasma 5 RC so new version number
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:48:54 +0200
+
 plasma-nm (1.0.0~git20140614-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
