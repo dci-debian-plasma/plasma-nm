@@ -1,4 +1,4 @@
-plasma-nm (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4.98.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream RC release
   * Upstream now releasing along with Plasma 5 RC so new version number
