@@ -29,6 +29,7 @@ Section: utils
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
+Replaces: plasma-nm-data
 Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
  .
