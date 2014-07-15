@@ -9,7 +9,8 @@ Build-Depends: cmake,
                libkf5declarative-dev (>= 5.0.0),       
                libkf5kdelibs4support-dev (>= 5.0.0),
                libkf5wallet-dev,
-               libnetworkmanagerqt5-dev,
+               libkf5networkmanagerqt-dev,
+               libkf5modemmanagerqt-dev,
                network-manager-dev,
                libopenconnect-dev,
                pkg-config,
@@ -26,19 +27,12 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/plasma-
 Package: plasma-nm
 Section: utils
 Architecture: any
-Depends: plasma-nm-data (= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
  .
  This package is part of the KDE Plasma.
-
-Package: plasma-nm-data
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Plasma5 networkmanager library data files.
- Plasma desktop network manager.
 
 Package: plasma-nm-dbg
 Section: debug
