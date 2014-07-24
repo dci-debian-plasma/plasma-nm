@@ -28,7 +28,13 @@ Package: plasma-nm
 Section: utils
 Architecture: any
 Depends: ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+         network-manager,
+         mobile-broadband-provider-info,
+Suggests: network-manager-openconnect,
+          network-manager-vpnc,
+          network-manager-openvpn,
+          network-manager-pptp
 Replaces: plasma-nm-data
 Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
