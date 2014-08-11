@@ -2,9 +2,9 @@ usr/bin
 usr/lib/*/qt5
 usr/share/applications/*
 usr/lib/*/*.so
-usr/share/kde5-nm-connection-editor
 usr/share/knotifications5
 usr/share/kservices5
 usr/share/kservicetypes5
 usr/share/plasma
 usr/share/locale
+usr/share/kxmlgui5/kde5-nm-connection-editor/kde5-nm-connection-editorui.rc
