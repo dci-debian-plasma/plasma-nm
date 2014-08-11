@@ -17,7 +17,9 @@ Build-Depends: cmake,
                pkg-kde-tools,
                plasma-framework-dev (>= 5.0.0),
                qtbase5-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
+               modemmanager-dev,
+               mobile-broadband-provider-info
 Standards-Version: 3.9.5
 Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
