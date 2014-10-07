@@ -7,6 +7,10 @@ plasma-nm (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
   * Drop ugly workaround to make a desktop file exectuable
     + This either should be done upstream or be lintian overridden (former
       seems more suitable). Upstream has been poked on IRC.
+  * Add lintian overrides
+    + missing manpages: we don't care
+    + package name doesn't match soname: we don't care for internal libraries
+    + shlib-without-versioned-soname: we don't care for internal libraries
   * Fix copyright short license for LGPL-KDEeV
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:14:15 +0200
