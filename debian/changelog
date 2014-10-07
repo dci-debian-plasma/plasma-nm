@@ -1,6 +1,12 @@
 plasma-nm (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Harald Sitter ]
+  * Drop ugly workaround to make a desktop file exectuable
+    + This either should be done upstream or be lintian overridden (former
+      seems more suitable). Upstream has been poked on IRC.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:14:15 +0200
 
