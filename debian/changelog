@@ -1,7 +1,7 @@
-plasma-nm (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
-  * New upstream beta release
+  * New upstream release
 
   [ Harald Sitter ]
   * Drop ugly workaround to make a desktop file exectuable
