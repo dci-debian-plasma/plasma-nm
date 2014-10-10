@@ -13,6 +13,9 @@ plasma-nm (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
     + shlib-without-versioned-soname: we don't care for internal libraries
   * Fix copyright short license for LGPL-KDEeV
 
+  [ Scarlett Clark ]
+  * Fix copyright short licence for LGPL-2.1-KDEeV 
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:14:15 +0200
 
 plasma-nm (4:5.0.2-0ubuntu1) utopic; urgency=medium
