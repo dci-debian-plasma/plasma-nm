@@ -1,4 +1,36 @@
-plasma-nm (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:27:24 +0100
+
+plasma-nm (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:52:08 +0100
+
+plasma-nm (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Harald Sitter ]
+  * Drop ugly workaround to make a desktop file exectuable
+    + This either should be done upstream or be lintian overridden (former
+      seems more suitable). Upstream has been poked on IRC.
+  * Add lintian overrides
+    + missing manpages: we don't care
+    + package name doesn't match soname: we don't care for internal libraries
+    + shlib-without-versioned-soname: we don't care for internal libraries
+  * Fix copyright short license for LGPL-KDEeV
+
+  [ Scarlett Clark ]
+  * Fix copyright short licence for LGPL-2.1-KDEeV 
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:14:15 +0200
+
+plasma-nm (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Remove no-human-maintainers lintian-override per ScottK. 

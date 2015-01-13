@@ -24,8 +24,7 @@ Copyright: © 2013-2014 Lukas Tinkl <ltinkl@redhat.com>
            © 2010 Andrey Borzenkov <arvidjaar@gmail.com>
            © 2009 Pavel Andreev <apavelm@gmail.com>
            © 2008-2009 Intel Corporation.
-License: GPL-2.0+ or any
-    later version accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -93,8 +92,7 @@ Copyright: 2013 Jan Grulich <jgrulich@redhat.com>
            2013 by Daniel Nicoletti <dantti12@gmail.com>
            2013 Lukas Tinkl <ltinkl@redhat.com>
            2013 Jan Grulich <jgrulich@redhat.com>
-License: LGPL-2.1+ or or any
-    later version accepted by the membership of KDE e.V.
+License: LGPL-2.1-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
