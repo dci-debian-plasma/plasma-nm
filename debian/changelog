@@ -1,3 +1,9 @@
+plasma-nm (4:5.2.0-0ubuntu2) vivid; urgency=medium
+
+  * Build with networkmanager-qt 5.6.0-0ubuntu2 for new symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 Jan 2015 13:45:34 +0100
+
 plasma-nm (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
