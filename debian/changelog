@@ -5,6 +5,7 @@ plasma-nm (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Update copyright information.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 12:58:37 +0100
 
