@@ -1,5 +1,6 @@
 Source: plasma-nm
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -20,14 +21,12 @@ Build-Depends: cmake,
                plasma-framework-dev (>= 5.2.0),
                qtbase5-dev,
                qtdeclarative5-dev
-Standards-Version: 3.9.5
-Section: kde
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/plasma-nm.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-nm.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-nm.git
 
 Package: plasma-nm
-Section: utils
 Architecture: any
 Depends: mobile-broadband-provider-info,
          network-manager,
@@ -45,9 +44,10 @@ Description: Plasma5 networkmanager library.
 
 Package: plasma-nm-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: plasma-nm (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: Plasma networkmanager debug files.
  Plasma5 network manager debugging files.
  .
