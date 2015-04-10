@@ -1,6 +1,7 @@
 plasma-nm (4:5.2.2-0ubuntu2) UNRELEASED; urgency=medium
 
   * Add upstream patch upstream_fix_newmodemmanager_framework_integration
+  * Fix series file 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 14:20:06 -0700
 
