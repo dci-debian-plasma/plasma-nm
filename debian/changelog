@@ -1,10 +1,11 @@
-plasma-nm (4:5.3.0-1~) UNRELEASED; urgency=medium
+plasma-nm (4:5.3.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.3.0).
   * Remove upstream patch:
     upstream_fix_newmodemmanager_framework_integration.patch
+  * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 May 2015 20:07:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:56:05 +0200
 
 plasma-nm (4:5.2.2-2) experimental; urgency=medium
 
