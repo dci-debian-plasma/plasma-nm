@@ -18,7 +18,8 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev (>= 5.2.0),
                qtbase5-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
+               libnm-dev
 Standards-Version: 3.9.5
 Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
