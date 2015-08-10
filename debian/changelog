@@ -1,8 +1,8 @@
-plasma-nm (4:5.3.95-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4:5.3.95-0ubuntu1) wily; urgency=medium
 
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 18:56:12 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:20:29 +0200
 
 plasma-nm (4:5.3.2-0ubuntu1) wily; urgency=medium
 
