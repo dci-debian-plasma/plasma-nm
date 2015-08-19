@@ -47,6 +47,7 @@ Architecture: any
 Depends: mobile-broadband-provider-info,
          network-manager,
          plasma-framework,
+         qml-module-org-kde-kcoreaddons,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: network-manager-openconnect,
