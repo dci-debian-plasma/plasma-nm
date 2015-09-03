@@ -1,4 +1,4 @@
-plasma-nm (4:5.4.0-1~) UNRELEASED; urgency=medium
+plasma-nm (4:5.4.0-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Make the source as linux-any, as NetworkManager exists only on Linux.
@@ -6,7 +6,7 @@ plasma-nm (4:5.4.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.4.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:37:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 18:39:14 +0200
 
 plasma-nm (4:5.3.2-1) unstable; urgency=medium
 
