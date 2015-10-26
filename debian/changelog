@@ -1,3 +1,11 @@
+plasma-nm (4:5.4.2-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Applying patch (kubuntu_upstream_fix_making_bluez_asynchronous.diff)
+    which will be applied upstream to make all bluez calls asynchronous,
+    fixing Launchpad Bug 1509334  Patch by Jan Grulich jgrulich@redhat.com
+
+ -- Clive Johnston <clivejo@aol.com>  Mon, 26 Oct 2015 16:14:16 +0000
+
 plasma-nm (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
