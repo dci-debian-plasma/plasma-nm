@@ -2,6 +2,7 @@ plasma-nm (4:5.4.2-0ubuntu2) UNRELEASED; urgency=medium
 
   * Remove upstream applied:
     upstream_fix_making_bluez_asynchronous.diff 
+  * Git remove series file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 03 Nov 2015 17:31:01 -0800
 
