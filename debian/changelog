@@ -4,13 +4,14 @@ plasma-nm (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
     upstream_fix_making_bluez_asynchronous.diff 
   * Git remove series file. 
   * New upstream bugfix release
+  * Fix merge. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 18:40:56 -0800
 
-plasma-nm (4:5.4.2-0ubuntu1.1) wily; urgency=medium
+plasma-nm (4:5.4.2-0ubuntu2) xenial; urgency=medium
 
   * Applying patch upstream_fix_making_bluez_asynchronous.diff
-    from upstream to make all bluez calls asynchronous, patch 
+    from upstream to make all bluez calls asynchronous, patch
     by Jan Grulich jgrulich@redhat.com LP: #1509334
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 26 Oct 2015 16:14:16 +0000
