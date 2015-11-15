@@ -5,6 +5,7 @@ plasma-nm (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
   * Git remove series file. 
   * New upstream bugfix release
   * Remove patch from git.
+  * Remove series file.. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 18:40:56 -0800
 
