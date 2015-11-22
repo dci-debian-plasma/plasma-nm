@@ -13,11 +13,6 @@ plasma-nm (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 14:14:15 +0100
 
-plasma-nm (4:5.4.2-0ubuntu1.1) wily; urgency=medium
-
-  * Applying patch upstream_fix_making_bluez_asynchronous.diff
-    from upstream to make all bluez calls asynchronous, patch 
-
 plasma-nm (4:5.4.2-0ubuntu2) xenial; urgency=medium
 
   * Applying patch upstream_fix_making_bluez_asynchronous.diff
