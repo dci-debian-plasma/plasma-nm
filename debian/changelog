@@ -1,3 +1,9 @@
+plasma-nm (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release Xenial
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 09:17:56 -0800
+
 plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
@@ -5,9 +11,14 @@ plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
     upstream_fix_making_bluez_asynchronous.diff 
   * Git remove series file. 
   * New upstream bugfix release
+  * Fix merge. 
   * Remove patch from git.
   * Remove series file.. 
+<<<<<<<
 
+=======
+  * Fix another merge.
+>>>>>>>
   [ Philip Muškovac ]
   * New upstream bugfix release (LP: #1518598)
 
