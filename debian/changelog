@@ -1,9 +1,13 @@
-plasma-nm (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4:5.5.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release Xenial
   * Fix merge. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 09:17:56 -0800
+  [ Clive Johnston ]
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 29 Dec 2015 17:52:05 +0000
 
 plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
