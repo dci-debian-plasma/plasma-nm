@@ -34,12 +34,6 @@ plasma-nm (4:5.4.2-0ubuntu2) xenial; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 26 Oct 2015 16:14:16 +0000
 
-plasma-nm (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Vivid backport
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 12:11:45 -0700
-
 plasma-nm (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
