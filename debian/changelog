@@ -21,7 +21,7 @@ plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
   * Remove series file.. 
   * Fix another merge.
   
-[ Philip Muškovac ]
+  [ Philip Muškovac ]
   * New upstream bugfix release (LP: #1518598)
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:43:42 +0100
