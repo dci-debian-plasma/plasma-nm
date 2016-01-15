@@ -8,6 +8,10 @@ plasma-nm (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * new upstream release
   * New upstream release
 
+  [ Harald Sitter ]
+  * Make plasma-nm recommend libkf5wallet-bin as wifi password storage is not
+    working unless kwallet is installed (and enabled).
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:01:13 +0000
 
 plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
