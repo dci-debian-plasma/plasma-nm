@@ -12,7 +12,16 @@ plasma-nm (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * Make plasma-nm recommend libkf5wallet-bin as wifi password storage is not
     working unless kwallet is installed (and enabled).
 
+  [ Philip Muškovac ]
+  * Merge with debian git master 
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:01:13 +0000
+
+plasma-nm (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:54 +0100
 
 plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
@@ -31,6 +40,12 @@ plasma-nm (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:43:42 +0100
 
+plasma-nm (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:12 +0200
+
 plasma-nm (4:5.4.2-0ubuntu2) xenial; urgency=medium
 
   * Applying patch upstream_fix_making_bluez_asynchronous.diff
@@ -45,11 +60,27 @@ plasma-nm (4:5.4.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 16:00:52 +0100
 
+plasma-nm (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:21 +0200
+
 plasma-nm (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:23:50 +0100
+
+plasma-nm (4:5.4.0-1) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Make the source as linux-any, as NetworkManager exists only on Linux.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 18:39:14 +0200
 
 plasma-nm (4:5.4.0-0ubuntu1) wily; urgency=medium
 
@@ -62,6 +93,12 @@ plasma-nm (4:5.3.95-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:20:29 +0200
+
+plasma-nm (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:30:14 +0200
 
 plasma-nm (4:5.3.2-0ubuntu1) wily; urgency=medium
 
@@ -83,14 +120,14 @@ plasma-nm (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:41:20 +0200
 
-plasma-nm (4:5.3.1-1~) UNRELEASED; urgency=medium
+plasma-nm (4:5.3.1-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
   * Remove upstream patch:
     upstream_fix_newmodemmanager_framework_integration.patch
   * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:56:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 11:09:11 +0200
 
 plasma-nm (4:5.2.2-2) experimental; urgency=medium
 
@@ -108,7 +145,7 @@ plasma-nm (4:5.2.2-1) experimental; urgency=medium
 plasma-nm (4:5.2.2-0ubuntu2) vivid; urgency=medium
 
   * Add upstream patch upstream_fix_newmodemmanager_framework_integration
-  * Fix series file 
+  * Fix series file
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 14:20:06 -0700
 
