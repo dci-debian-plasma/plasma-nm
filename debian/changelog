@@ -15,6 +15,9 @@ plasma-nm (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge, No remaining changes. 
 
+  [ Bhushan Shah ]
+  * Alternate depend on libnm-glib-dev for vivid mobile builds
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:01:13 +0000
 
 plasma-nm (4:5.4.3-1) unstable; urgency=medium
