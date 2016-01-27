@@ -1,4 +1,4 @@
-plasma-nm (4:5.5.4-1~) UNRELEASED; urgency=medium
+plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
   * New upstream release (5.5.0).
   * New upstream release (5.5.1).
@@ -6,7 +6,7 @@ plasma-nm (4:5.5.4-1~) UNRELEASED; urgency=medium
   * New upstream release (5.5.3).
   * New upstream release (5.5.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 12:10:25 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:03 +0100
 
 plasma-nm (4:5.4.3-1) unstable; urgency=medium
 
