@@ -1,4 +1,4 @@
-plasma-nm (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
+plasma-nm (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
@@ -12,13 +12,16 @@ plasma-nm (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * Make plasma-nm recommend libkf5wallet-bin as wifi password storage is not
     working unless kwallet is installed (and enabled).
 
-  [ Scarlett Clark ]
-  * Debian merge, No remaining changes. 
+  [ Philip Muškovac ]
+  * Merge with debian git master 
 
   [ Bhushan Shah ]
   * Alternate depend on libnm-glib-dev for vivid mobile builds
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:01:13 +0000
+  [ Clive Johnston ]
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:17:32 +0000
 
 plasma-nm (4:5.4.3-1) unstable; urgency=medium
 
