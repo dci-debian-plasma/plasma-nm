@@ -1,8 +1,20 @@
-plasma-nm (4:5.6.2-1~1.gbpecbf5c) UNRELEASED; urgency=medium
+plasma-nm (4:5.6.3-1~1.gbpcbc152) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @cbc152e6037e38394636089f10b8a8d59dcd3980 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Force installing in debian/tmp
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:39:18 +0200
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:39:25 +0200
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
