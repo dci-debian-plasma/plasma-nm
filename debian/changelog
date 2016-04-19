@@ -2,15 +2,7 @@ plasma-nm (4:5.6.2-1~1.gbpecbf5c) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
 
-  * UNRELEASED
-
  -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:39:18 +0200
-
-plasma-nm (4:5.5.5-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.5.5).
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:29:03 +0100
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
