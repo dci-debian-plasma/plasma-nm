@@ -1,6 +1,6 @@
-plasma-nm (4:5.6.3-1~1.gbpcbc152) UNRELEASED; urgency=medium
+plasma-nm (4:5.6.3-1~2.gbped6bdf) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cbc152e6037e38394636089f10b8a8d59dcd3980 **
+  ** SNAPSHOT build @ed6bdfed64f703f8385fbb86f8d76acd2700cd0c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
@@ -10,11 +10,12 @@ plasma-nm (4:5.6.3-1~1.gbpcbc152) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Trigger rebuild
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:39:25 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 03 May 2016 13:47:17 +0200
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
