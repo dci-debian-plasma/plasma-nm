@@ -1,6 +1,6 @@
-plasma-nm (4:5.6.4-1~1.gbpe991bb) UNRELEASED; urgency=medium
+plasma-nm (4:5.6.4-1~2.gbp3c1082) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e991bbe2ed4946f3dcb89f7ca026ff94e42ce980 **
+  ** SNAPSHOT build @3c1082d215f7a93e78dfa8654112ce11eec776d9 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
@@ -12,11 +12,13 @@ plasma-nm (4:5.6.4-1~1.gbpe991bb) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Trigger rebuild
   * UNRELEASED
+  * Bump network manager build dependency.
+    Thanks to Martin Steigerwald for noticing this (Closes: 824531)
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:39:30 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 17 May 2016 13:39:20 +0200
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
