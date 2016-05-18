@@ -3,3 +3,4 @@ plasma-nm: binary-without-manpage usr/bin/kde5-nm-connection-editor
 plasma-nm: shlib-without-versioned-soname usr/lib/*/libplasmanm_editor.so libplasmanm_editor.so
 plasma-nm: shlib-without-versioned-soname usr/lib/*/libplasmanm_internal.so libplasmanm_internal.so
 plasma-nm: postinst-must-call-ldconfig usr/lib/*/libplasmanm_internal.so
+plasma-nm: package-must-activate-ldconfig-trigger usr/lib/*/libplasmanm_internal.so
