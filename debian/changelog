@@ -1,6 +1,6 @@
-plasma-nm (4:5.6.4-1~2.gbp3c1082) UNRELEASED; urgency=medium
+plasma-nm (4:5.6.4-1~3.gbp80c99f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3c1082d215f7a93e78dfa8654112ce11eec776d9 **
+  ** SNAPSHOT build @80c99fdea1e0875086451ce8062f106e665a2671 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
@@ -14,11 +14,12 @@ plasma-nm (4:5.6.4-1~2.gbp3c1082) UNRELEASED; urgency=medium
   * UNRELEASED
   * Bump network manager build dependency.
     Thanks to Martin Steigerwald for noticing this (Closes: 824531)
+  * Add new lintian-override for the internal lib
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 17 May 2016 13:39:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 18 May 2016 20:59:45 +0200
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
