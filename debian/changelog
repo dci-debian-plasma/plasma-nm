@@ -1,17 +1,12 @@
-plasma-nm (4:5.6.4-1~3.gbp80c99f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @80c99fdea1e0875086451ce8062f106e665a2671 **
+plasma-nm (4:5.6.4-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @ecbf5c142e003bb03f0f1e42dbeadcae3b8e6f34 **
   * uscan no longer supports this kind of watch files.
   * New upstream release (5.5.5).
   * Force installing in debian/tmp
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * Trigger rebuild
-  * UNRELEASED
   * Bump network manager build dependency.
     Thanks to Martin Steigerwald for noticing this (Closes: 824531)
   * Add new lintian-override for the internal lib
@@ -19,7 +14,7 @@ plasma-nm (4:5.6.4-1~3.gbp80c99f) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 18 May 2016 20:59:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 02:26:19 +0200
 
 plasma-nm (4:5.5.4-1) experimental; urgency=medium
 
