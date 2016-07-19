@@ -1,10 +1,11 @@
-plasma-nm (4:5.7.1-1~1.gbp791108) UNRELEASED; urgency=medium
+plasma-nm (4:5.7.2-1~1.gbpd5f221) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @791108767afbf50ecf0223386e758ec74de9d0e4 **
+  ** SNAPSHOT build @d5f2216858d1bb1a28d3974c64313ede8222212f **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:39:15 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 19:39:19 +0200
 
 plasma-nm (4:5.7.0-1) unstable; urgency=medium
 
