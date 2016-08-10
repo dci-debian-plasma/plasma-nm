@@ -1,10 +1,1 @@
-usr/bin
-usr/lib/*/*.so
-usr/lib/*/qt5
-usr/share/applications/*
-usr/share/knotifications5
-usr/share/kservices5
-usr/share/kservicetypes5
-usr/share/kxmlgui5/kde5-nm-connection-editor/kde5-nm-connection-editorui.rc
-usr/share/locale
-usr/share/plasma
+usr/
