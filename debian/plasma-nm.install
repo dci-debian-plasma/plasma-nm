@@ -7,4 +7,5 @@ usr/share/kservices5
 usr/share/kservicetypes5
 usr/share/kxmlgui5/kde5-nm-connection-editor/kde5-nm-connection-editorui.rc
 usr/share/locale
+usr/share/metainfo/org.kde.plasma.networkmanagement.appdata.xml
 usr/share/plasma
