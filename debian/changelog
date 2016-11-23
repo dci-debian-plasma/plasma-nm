@@ -1,11 +1,8 @@
-plasma-nm (4:5.8.4-1~1.gbpbc5adf) UNRELEASED; urgency=medium
+plasma-nm (4:5.8.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @bc5adf74fbb15bf3eb2b445f204334e316da1432 **
+  * New upstream release (5.8.4)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:18:05 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:38:04 +0100
 
 plasma-nm (4:5.8.2-1) unstable; urgency=medium
 
