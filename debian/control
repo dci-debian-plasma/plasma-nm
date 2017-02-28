@@ -45,7 +45,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-nm.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-nm.git
 
 Package: plasma-nm
-Architecture: linux-any
+Architecture: any
 Depends: mobile-broadband-provider-info,
          network-manager,
          plasma-framework,
@@ -66,7 +66,7 @@ Description: Plasma5 networkmanager library.
 Package: plasma-nm-dbg
 Section: debug
 Priority: extra
-Architecture: linux-any
+Architecture: any
 Depends: plasma-nm (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
 Description: Plasma networkmanager debug files.
