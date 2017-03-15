@@ -44,7 +44,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-nm.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-nm.git
 
 Package: plasma-nm
-Architecture: linux-any
+Architecture: all
 Depends: mobile-broadband-provider-info,
          network-manager,
          plasma-framework,
