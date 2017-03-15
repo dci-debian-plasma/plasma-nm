@@ -61,16 +61,3 @@ Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
  .
  This package is part of the KDE Plasma.
-
-Package: plasma-nm-dbg
-Section: debug
-Priority: extra
-Architecture: linux-any
-Depends: plasma-nm (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Plasma networkmanager debug files.
- Plasma5 network manager debugging files.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the debugging symbols.
