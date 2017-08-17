@@ -38,7 +38,7 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4.0~),
                qtdeclarative5-dev (>= 5.4.0~),
-               qttools5-dev (>= 5.4.0~)
+               qttools5-dev (>= 5.4.0~),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-nm
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-nm.git
@@ -51,11 +51,11 @@ Depends: mobile-broadband-provider-info,
          plasma-framework,
          qml-module-org-kde-kcoreaddons,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Suggests: network-manager-openconnect,
           network-manager-openvpn,
           network-manager-pptp,
-          network-manager-vpnc
+          network-manager-vpnc,
 Replaces: plasma-nm-data
 Description: Plasma5 networkmanager library.
  Plasma desktop network manager.
